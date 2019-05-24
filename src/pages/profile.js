@@ -27,7 +27,7 @@ function profile() {
           <h4 className="pb-3 lora">Front End Developer</h4>
           <div className="h5">
             <div className="pb-2"><span className="pr-3"><i class="far fa-envelope"></i></span> pimrampha.m@gmail.com</div>
-            <div className="pb-2"><span className="pr-3"><i class="fab fa-github"></i></span> <a target="_blank" href="https://github.com/mildtotoro">github.com/mildtotoro</a></div>
+            <div className="pb-2"><span className="pr-3"><i class="fab fa-github"></i></span> <a rel="noopener noreferrer" target="_blank" href="https://github.com/mildtotoro">github.com/mildtotoro</a></div>
             <div className=""><span className="pr-4"><i class="fas fa-mobile-alt"></i></span> 087 546 3412</div>
           </div>
         </div>
