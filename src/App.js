@@ -1,27 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './style/App.scss';
 import Topbar from './components/Topbar';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import profile from './pages/profile';
+
+const Findxyz = (props) => {
+  let result = [];
+  let number = 3;
+  for (let i = 0; i <= props.amount; i++) {
+    number = number + (2 * i);
+    result.push(number);
+  }
+
+  return result.map(n => {
+    return n + ","
+  })
+}
 
 function App() {
   return (
     <div className="App">
-      <Topbar/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Topbar />
+        <Route exact path="/" component={profile} />
+        <Route path="/function-find-value" component={() => {
+          return <div className="container" style={{height: 'calc(100vh - 56px - 32px)'}}>
+            <div className="pt-3">
+            <Findxyz amount={7} />
+            </div>
+          </div>
+        }} />
+      </Router>
+      <Footer />
     </div>
   );
 }
