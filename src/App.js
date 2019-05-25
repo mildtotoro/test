@@ -16,8 +16,11 @@ const Findxyz = (props) => {
     result.push(number);
   }
 
-  return result.map(n => {
-    return n + ","
+  return result.map((num, index) => {
+    if(index == result.length-1) {
+      return num;
+    }
+    return num + ","
   })
 }
 
