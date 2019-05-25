@@ -23,8 +23,8 @@ function App() {
     <div className="App">
       <Router>
         <Topbar />
-        <Route exact path="/" component={profile} />
-        <Route path="/function-find-value" component={() => {
+        <Route exact path="/test" component={profile} />
+        <Route path="/test/function-find-value" component={() => {
           return <div className="container" style={{height: 'calc(100vh - 56px - 32px)'}}>
             <div className="pt-3">
             <Findxyz amount={7} />

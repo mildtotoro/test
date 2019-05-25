@@ -1,22 +1,8 @@
 import React, { Fragment } from 'react';
 import img from '../assets/images/profile.JPG';
 
-// const findXYZ = (amount = 7) => {
-//   let result = [];
-//   let number = 3;
-//   for (let i = 0; i <= amount; i++) {
-//     number = number + (2*i);
-//     result.push(number);
-//   }
-
-//   return result.map(n => {
-//     return n+","
-//   })
-// }
-
 function profile() {
   return <Fragment>
-    {/* {findXYZ()} */}
     <div className="container">
       <div className="row ">
         <div className="col-12 col-sm-4">
