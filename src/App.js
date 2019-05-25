@@ -17,7 +17,7 @@ const Findxyz = (props) => {
   }
 
   return result.map((num, index) => {
-    if(index == result.length-1) {
+    if(index === result.length-1) {
       return num;
     }
     return num + ","
