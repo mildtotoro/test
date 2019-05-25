@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/test/scg-test/static/css/main.0e7e5d91.chunk.css",
-    "main.js": "/test/scg-test/static/js/main.4c9b5183.chunk.js",
-    "main.js.map": "/test/scg-test/static/js/main.4c9b5183.chunk.js.map",
-    "runtime~main.js": "/test/scg-test/static/js/runtime~main.607daea3.js",
-    "runtime~main.js.map": "/test/scg-test/static/js/runtime~main.607daea3.js.map",
-    "static/css/2.150b1208.chunk.css": "/test/scg-test/static/css/2.150b1208.chunk.css",
-    "static/js/2.d995550d.chunk.js": "/test/scg-test/static/js/2.d995550d.chunk.js",
-    "static/js/2.d995550d.chunk.js.map": "/test/scg-test/static/js/2.d995550d.chunk.js.map",
-    "index.html": "/test/scg-test/index.html",
-    "precache-manifest.5b6dad702c5db6cc4eaedf816c4c6cb7.js": "/test/scg-test/precache-manifest.5b6dad702c5db6cc4eaedf816c4c6cb7.js",
-    "service-worker.js": "/test/scg-test/service-worker.js",
-    "static/css/2.150b1208.chunk.css.map": "/test/scg-test/static/css/2.150b1208.chunk.css.map",
-    "static/css/main.0e7e5d91.chunk.css.map": "/test/scg-test/static/css/main.0e7e5d91.chunk.css.map",
-    "static/media/App.scss": "/test/scg-test/static/media/fa-solid-900.f14c3b2f.ttf",
-    "static/media/profile.JPG": "/test/scg-test/static/media/profile.9004bd43.JPG"
+    "main.css": "/test/static/css/main.0e7e5d91.chunk.css",
+    "main.js": "/test/static/js/main.664d38f1.chunk.js",
+    "main.js.map": "/test/static/js/main.664d38f1.chunk.js.map",
+    "runtime~main.js": "/test/static/js/runtime~main.eded8796.js",
+    "runtime~main.js.map": "/test/static/js/runtime~main.eded8796.js.map",
+    "static/css/2.7d7592cd.chunk.css": "/test/static/css/2.7d7592cd.chunk.css",
+    "static/js/2.d995550d.chunk.js": "/test/static/js/2.d995550d.chunk.js",
+    "static/js/2.d995550d.chunk.js.map": "/test/static/js/2.d995550d.chunk.js.map",
+    "index.html": "/test/index.html",
+    "precache-manifest.2b774ec6f15697684d4f6d46da0f0931.js": "/test/precache-manifest.2b774ec6f15697684d4f6d46da0f0931.js",
+    "service-worker.js": "/test/service-worker.js",
+    "static/css/2.7d7592cd.chunk.css.map": "/test/static/css/2.7d7592cd.chunk.css.map",
+    "static/css/main.0e7e5d91.chunk.css.map": "/test/static/css/main.0e7e5d91.chunk.css.map",
+    "static/media/App.scss": "/test/static/media/fa-solid-900.f14c3b2f.ttf",
+    "static/media/profile.JPG": "/test/static/media/profile.9004bd43.JPG"
   }
 }
