@@ -12,9 +12,9 @@ function profile() {
           <h2 className="">Pimrampha Mahikhod</h2>
           <h4 className="pb-3 lora">Front End Developer</h4>
           <div className="h5">
-            <div className="pb-2"><span className="pr-3"><i class="far fa-envelope"></i></span> pimrampha.m@gmail.com</div>
-            <div className="pb-2"><span className="pr-3"><i class="fab fa-github"></i></span> <a rel="noopener noreferrer" target="_blank" href="https://github.com/mildtotoro">github.com/mildtotoro</a></div>
-            <div className=""><span className="pr-4"><i class="fas fa-mobile-alt"></i></span> 087 546 3412</div>
+            <div className="pb-2"><span className="pr-3"><i className="far fa-envelope"></i></span> pimrampha.m@gmail.com</div>
+            <div className="pb-2"><span className="pr-3"><i className="fab fa-github"></i></span> <a rel="noopener noreferrer" target="_blank" href="https://github.com/mildtotoro">github.com/mildtotoro</a></div>
+            <div className=""><span className="pr-4"><i className="fas fa-mobile-alt"></i></span> 087 546 3412</div>
           </div>
         </div>
       </div>
@@ -58,16 +58,16 @@ function profile() {
       </div>
     </div>
 
-    <div className=" py-5 bg-secondary">
+    <div className="py-5 bg-secondary">
       <div className="container">
         <div className="h1 pb-3">Skill</div>
-        <div class="btn btn-primary text-light btn-sm mr-2">React</div>
-        <div class="btn btn-primary text-light btn-sm mr-2">Vue.js</div>
-        <div class="btn btn-primary text-light btn-sm mr-2">Scss</div>
-        <div class="btn btn-primary text-light btn-sm mr-2">Laravel</div>
-        <div class="btn btn-primary text-light btn-sm mr-2">Node.js</div>
-        <div class="btn btn-primary text-light btn-sm mr-2">HTML/CSS</div>
-        <div class="btn btn-primary text-light btn-sm">jQuery</div>
+        <div className="btn btn-primary text-light btn-sm mr-2 mb-2">React</div>
+        <div className="btn btn-primary text-light btn-sm mr-2 mb-2">Vue.js</div>
+        <div className="btn btn-primary text-light btn-sm mr-2 mb-2">Scss</div>
+        <div className="btn btn-primary text-light btn-sm mr-2 mb-2">Laravel</div>
+        <div className="btn btn-primary text-light btn-sm mr-2 mb-2">Node.js</div>
+        <div className="btn btn-primary text-light btn-sm mr-2 mb-2">HTML/CSS</div>
+        <div className="btn btn-primary text-light btn-sm mb-2">jQuery</div>
       </div>
     </div>
 

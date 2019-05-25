@@ -4,6 +4,9 @@ import Topbar from './components/Topbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import profile from './pages/profile';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/js/src/index.js';
 
 const Findxyz = (props) => {
   let result = [];
